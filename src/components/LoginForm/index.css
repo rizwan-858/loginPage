@@ -1,0 +1,154 @@
+.login-container {
+  background-color: #0b1026;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+}
+
+.userName {
+  background-color: #454d63;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  width: 270px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.userNameInput {
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  padding-left: 10px;
+  font-family: 'Proxima Nova';
+}
+.password {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ffbe00;
+  border-radius: 25px;
+  width: 270px;
+  margin: 5px;
+  padding: 5px;
+  color: #686666;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.passwordInput {
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  font-family: 'Proxima Nova';
+}
+
+.lock {
+  color: #686666;
+}
+
+.span {
+  font-size: 2px;
+}
+
+.showBtn {
+  background-color: transparent;
+  color: #686666;
+  border-width: 0px;
+}
+
+.checkbox {
+  color: #686666;
+  font-size: 15px;
+  padding-right: 30px;
+  font-family: 'Proxima Nova';
+}
+
+.forgotBtn {
+  background-color: transparent;
+  color: #ffbe00;
+  border-width: 0px;
+  font-family: 'Proxima Nova';
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.loginBtn {
+  background-color: #ffbe00;
+  color: #000000;
+  width: 270px;
+  border-width: 0px;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Proxima Nova';
+}
+
+.heading {
+  color: #ffbe00;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.tagLine {
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .login-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 40px;
+  }
+
+  .userName {
+    width: 200px;
+  }
+  .password {
+    width: 200px;
+  }
+
+  .cont {
+    width: 200px;
+  }
+  .loginBtn {
+    width: 200px;
+  }
+  .showBtn {
+    width: 55px;
+    font-size: 5px;
+  }
+  .forgotBtn {
+    font-size: 7px;
+  }
+  .form {
+    margin-top: 20px;
+  }
+}
